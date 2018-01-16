@@ -1,0 +1,35 @@
+{
+	"name": "try-react-router",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jo",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jquery": "^2.0.39",
+		"@types/react-dom": "16.0.2",
+		"@types/react-router": "^4.0.20",
+		"@types/react-router-dom": "^4.2.3",
+		"gulp": "^3.9.1",
+		"gulp-cache-bust": "^1.1.0",
+		"gulp-changed": "^3.1.0",
+		"gulp-print": "^2.0.1",
+		"gulp-replace": "^0.6.1",
+		"gulp-typescript": "^3.0.1",
+		"gulp-webpack": "^1.5.0",
+		"node-uuid": "^1.4.8",
+		"run-sequence": "^1.2.2",
+		"ts-loader": "^2.1.0",
+		"typescript": "^2.0.3",
+		"webpack": "^2.6.1",
+		"webpack-stream": "^3.2.0"
+	},
+	"dependencies": {
+		"react": "16.0.0",
+		"react-dom": "16.0.0",
+		"react-router-dom": "^4.2.2"
+	}
+}

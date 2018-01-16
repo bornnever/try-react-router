@@ -1,0 +1,22 @@
+{
+    "files": [
+        "typescript/Index.tsx",
+        "typescript/App.tsx"
+    ],
+    "compilerOptions": {
+        //"noImplicitAny": true,
+        "target": "es5",
+        "jsx": "react",
+        "moduleResolution": "classic",
+        "lib": [
+            "es5",
+            "es2015.promise",
+            "dom"
+        ],
+        "types": []
+    },
+    "exclude": [
+        "node_modules",
+        "node_modules/@types/react/index.d.ts"
+    ]
+}
